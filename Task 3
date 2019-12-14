@@ -1,0 +1,10 @@
+#A PYTHON FUNCTION THAT TAKES A LIST OF WORDS AND RETURNS THE LENGTH OF THE LONGEST ONE.
+print("ENTER THE LIST OF WORDS with some SPACE (" ") between them")
+def func(list):
+    a=[]
+    for i in list:
+        a.append(len(i))
+    print("Your list of words are :",list)
+    print("THE length of longest one among all is :",max(a))
+func(input().split(" "))
+input()

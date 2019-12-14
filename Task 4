@@ -1,0 +1,5 @@
+#A PYTHON SCRIPT THAT TAKES INPUT FROM THE USER AND DISPLAYS THAT INPUT BACK IN UPPER AND LOWER CASES.
+print("Enter the word that you want in both UPPER and lowercases")
+inp=input()
+print("The UPPERcase for your word is : ", inp.upper())#builtin method for UC
+print("The lowercase for your word is : ", inp.lower())#builtin method for lc

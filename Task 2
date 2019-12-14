@@ -1,0 +1,4 @@
+#PYTHON PROGRAM TO ACCEPT A FILENAME FROM THE USER AND PRINT THE EXTENSION OF THAT.
+filename=input("Enter the name of the file :")#input
+f_exe=filename.split(".")#to get extension
+print("The Extension of given file is :"+ repr(f_exe[-1]))#output

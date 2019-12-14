@@ -1,0 +1,12 @@
+#WRITE A PYTHON CLASS NAMED RECTANGLE CONSTRUCTED BY A LENGTH AND WIDTH AND A METHOD
+#WHICH WILL COMPUTE THE AREA OF A RECTANGLE.
+print("Enter the values of Width and length of rectangle and press enter between them")
+class Rectangle:
+    def __init__(laks,width,length):
+        laks.width=print("Width of the Rectangle : ",float(width))
+        laks.length=print("Length of the Rectangle : ",float(length))
+        laks.area=width*length
+        
+l1=Rectangle(float(input()),float(input()))
+print("Area of a Rectange is : ",l1.area)
+input()

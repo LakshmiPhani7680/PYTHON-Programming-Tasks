@@ -1,0 +1,5 @@
+#A PYTHON PROGRAM TO CONVERT MONTH NAME TO THE NUMBER OF DAYS.
+print("Enter the Name of the Month starting with Block Letter:" )
+months={'January':31,'February':"28 days in Normal year. \n29 days in Leap Year.",'March':31,'April':30,'May':31,'June':30,'July':31,'August':31,'September':30,'October':31,'November':30,'December':31}
+print(months[input()])
+input()

@@ -1,0 +1,13 @@
+#WRITE A PYTHON PROGRAM TO CHECK A TRIANGLE IS EQUILATERAL, ISOSCELES OR SCALENE.
+print("TO CHECK A TRIANGLE IS EQUILATERAL,ISOSCELES OR SCALENE.")
+print("Enter three numerical values press ENTER after every value")
+I1=(input())
+I2=(input())
+I3=(input())
+if ((I1==I2)and(I3==I1)):
+    print("TRIANGLE IS EQUILATERAL")
+elif((I1==I2)or(I2==I3)or(I1==I3)):
+    print("TRIANGLE IS ISOSCELES")
+else:
+    print("TRIANGLE IS SCALENE")
+input()

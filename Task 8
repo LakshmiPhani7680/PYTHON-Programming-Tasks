@@ -1,0 +1,9 @@
+#WRITE A PYTHON FUNCTION TO MULTIPLY ALL THE NUMBERS IN A LIST.
+print("Enter List of Numbers with COMMAS(,) between them")
+List=input().split(",")
+print("Your list of numbers are : ",List)
+product=1
+for i in range(0,len(List)):
+    a=int(List[i])
+    product*=a
+print("The number of even numbers in given string is : ",product)

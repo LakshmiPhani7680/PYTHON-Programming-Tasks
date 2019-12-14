@@ -1,0 +1,13 @@
+#WRITE A PYTHON PROGRAM TO COUNT THE NUMBER OF EVEN AND ODD NUMBERS FROM A SERIES OF NUMBERS.
+print("Enter List of Numbers with COMMAS(,) between them")
+List=input().split(",")
+print("Your list of numbers are : ",List)
+count1=count2=0
+for i in range(0,len(List)):
+    a=int(List[i])
+    if (a%2==0):
+        count1+=1
+    else:
+        count2+=1
+print("The number of even numbers in given string is : ",count1)
+print("The number of odd numbers in given string is : ",count2)
